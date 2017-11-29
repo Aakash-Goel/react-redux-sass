@@ -1,0 +1,4 @@
+# Don't lint the following
+dist
+node_modules
+log
