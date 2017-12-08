@@ -1,5 +1,5 @@
 const path = require('path');
-const cwd = process.cwd();
+const cwd  = process.cwd();
 
 const webpackDefaults = {
   resolve: {

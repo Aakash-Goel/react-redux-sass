@@ -1,7 +1,7 @@
-const path = require('path');
-const merge = require('webpack-merge');
+const path          = require('path');
+const merge         = require('webpack-merge');
 const webpackConfig = require('./config/webpack.config');
-const cwd = process.cwd();
+const cwd           = process.cwd();
 
 const webpackBase = merge([
   {

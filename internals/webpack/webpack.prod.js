@@ -1,8 +1,8 @@
-const path = require('path');
-const merge = require('webpack-merge');
-const baseConfig = require('./webpack.base');
+const path          = require('path');
+const merge         = require('webpack-merge');
+const baseConfig    = require('./webpack.base');
 const webpackConfig = require('./config/webpack.config');
-const cwd = process.cwd();
+const cwd           = process.cwd();
 
 const webpackProd = merge([
   baseConfig,
@@ -11,7 +11,7 @@ const webpackProd = merge([
     name: 'prod',
 
     entry: [
-      path.join(cwd, 'src/app.jsx'),
+      path.join(cwd, 'src/app.js'),
     ],
 
     output: {
