@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-function App() {
+const App = () => {
   return (
     <div>
       <p>Welcome to <strong>Yet Another React Redux Store Starter-Kit!!</strong></p>
@@ -21,6 +21,8 @@ function App() {
       <div>
         <p>Upcoming Features</p>
         <ul>
+          <li><strong>Testing</strong></li>
+          <li><strong>Code-Coverage</strong></li>
           <li><strong>Style Linting (for writing concise styles)</strong></li>
           <li><strong>React/Redux Router</strong> (to quickly start react-redux application)</li>
           <li><strong>Generators</strong> (to quickly setup base for containers/components)</li>
@@ -35,6 +37,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default connect()(App);
