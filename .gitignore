@@ -71,3 +71,6 @@ _todo.rtf
 _todo.js
 /todo
 /_todo
+
+# Node Lock File
+package-lock.json
