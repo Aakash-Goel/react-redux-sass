@@ -16,12 +16,12 @@ const App = () => {
           <li><strong>ES6</strong> (write in ES6 and will transpile into ES5 using `babel`)</li>
           <li><strong>Logs</strong> (configured server logs using `bunyan` library)</li>
           <li><strong>JS-Lint</strong> (configured linting to write concise JS code, used `eslint` and `airbnb`(for standard-linting-rules))</li>
+          <li><strong>Testing (with Karma + Mocha + Enzyme + Chai + Sinon)</strong></li>
         </ul>
       </div>
       <div>
         <p>Upcoming Features</p>
         <ul>
-          <li><strong>Testing</strong></li>
           <li><strong>Code-Coverage</strong></li>
           <li><strong>Style Linting (for writing concise styles)</strong></li>
           <li><strong>React/Redux Router</strong> (to quickly start react-redux application)</li>
